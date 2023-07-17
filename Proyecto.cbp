@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Proyecto" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Proyecto" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="C:/Program Files/CodeBlocks/curlWin32/curl-8.1.2_3-win32-mingw" />
+				</Compiler>
+				<Linker>
+					<Add library="lib/libcurl.a" />
+					<Add library="lib/libcurl.dll.a" />
+					<Add library="lib/libbrotlicommon.a" />
+					<Add library="lib/libbrotlidec.a" />
+					<Add library="lib/libcrypto.a" />
+					<Add library="lib/libgsasl.a" />
+					<Add library="lib/libnghttp2.a" />
+					<Add library="lib/libnghttp3.a" />
+					<Add library="lib/libngtcp2.a" />
+					<Add library="lib/libngtcp2_crypto_openssl.a" />
+					<Add library="lib/libssh2.a" />
+					<Add library="lib/libssl.a" />
+					<Add library="lib/libz.a" />
+					<Add library="lib/libzstd.a" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Proyecto" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="enlacesURL.txt" />
+		<Unit filename="proyectoDos.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

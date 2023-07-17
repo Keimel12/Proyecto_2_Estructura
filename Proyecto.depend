@@ -1,0 +1,60 @@
+# depslib dependency file v1.0
+1688345163 source:c:\users\usuario\desktop\actividades de semestres\4to semestre\estructuras de datos\proyectos\proyecto 2\proyecto\proyectodos.cpp
+	<iostream>
+	<algorithm>
+	<include/curl/curl.h>
+	<cstddef>
+	<queue>
+	<string>
+	<fstream>
+	<set>
+	<vector>
+
+1685388112 c:\program files\codeblocks\curlwin32\curl-8.1.2_3-win32-mingw\include\curl\curl.h
+	"curlver.h"
+	"system.h"
+	<stdio.h>
+	<limits.h>
+	<osreldate.h>
+	<sys/types.h>
+	<time.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/select.h>
+	<sys/socket.h>
+	<sys/time.h>
+	"easy.h"
+	"multi.h"
+	"urlapi.h"
+	"options.h"
+	"header.h"
+	"websockets.h"
+	"typecheck-gcc.h"
+
+1685443610 c:\program files\codeblocks\curlwin32\curl-8.1.2_3-win32-mingw\include\curl\curlver.h
+
+1684164360 c:\program files\codeblocks\curlwin32\curl-8.1.2_3-win32-mingw\include\curl\system.h
+	<ConditionalMacros.h>
+	<winsock2.h>
+	<windows.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<sys/poll.h>
+
+1685031688 c:\program files\codeblocks\curlwin32\curl-8.1.2_3-win32-mingw\include\curl\easy.h
+
+1684164360 c:\program files\codeblocks\curlwin32\curl-8.1.2_3-win32-mingw\include\curl\multi.h
+	"curl.h"
+
+1684164360 c:\program files\codeblocks\curlwin32\curl-8.1.2_3-win32-mingw\include\curl\urlapi.h
+	"curl.h"
+
+1684164360 c:\program files\codeblocks\curlwin32\curl-8.1.2_3-win32-mingw\include\curl\options.h
+
+1684164360 c:\program files\codeblocks\curlwin32\curl-8.1.2_3-win32-mingw\include\curl\header.h
+
+1684164360 c:\program files\codeblocks\curlwin32\curl-8.1.2_3-win32-mingw\include\curl\websockets.h
+
+1684164360 c:\program files\codeblocks\curlwin32\curl-8.1.2_3-win32-mingw\include\curl\typecheck-gcc.h
+
